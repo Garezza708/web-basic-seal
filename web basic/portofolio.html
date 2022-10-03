@@ -1,76 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
-</head>
-<body style="color: white; background: black;">
-    <style>
-        .menu ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: grey;
-        }
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body class="bg-dark" style="margin-top: 4rem;">
 
-        .menu li {
-            float: left;
-        }
-
-        .menu li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        /* Change the link color to #111 (black) on hover */
-        .menu li a:hover {
-            background-color: red;
-        }
-    </style>
-
-    <div class="menu">
-        <ul>
-            <li><a style="color: aqua;" href="index.html">Biodata</a></li>
-            <li><a style="color: aqua;" href="">Portofolio</a></li>
-        </ul>    
-    </div>
-    <h1>Portofolio Experience</h1>
-    <table  border="3" style="width: 100%;">
-        <tr>
-            <th style="width: 15%;">Date</th>
-            <th style="width: 10%;">Category</th>
-            <th style="width: 60%;">Name</th>
-            <th style="width: 10%;">Posisition</th>
-            <th >Descripton</th>
-        </tr>
-        <tr>
-            <td style="text-align: center;">Feb 2022 - Jun 2022</td>
-            <td style="text-align: center;">Class Project</td>
+    <table class="table table-dark text-light">
+        <thead>
+          <tr >
+            <th scope="col">Number</th>
+            <th scope="col">Date</th>
+            <th scope="col">Category</th>
+            <th scope="col">Name</th>
+            <th scope="col">Posisition</th>
+            <th scope="col">Descripton</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr >
+            <th scope="row">1</th>
+            <td>Feb 2022 - Jun 2022</td>
+            <td>Class Project</td>
             <td>PPL (Pengembangan Perangkat Lunak Untuk Agroindustri Modern)</td>
-            <td style="text-align: center;">System Analyst</td>
-            <td style="text-align: center;"><a href="https://drive.google.com/file/d/1e5z5qpVJZJx4kf62fOXp4ZcB6oNupDzS/view?usp=sharing" style="color: blueviolet;">GDrive</a></td>
-        </tr>
-        <tr>
-            <td style="text-align: center;">Sep 2021 - Dec 2021</td>
-            <td style="text-align: center;">Class Project</td>
+            <td>System Analyst</td>
+            <td><a href="https://drive.google.com/file/d/1e5z5qpVJZJx4kf62fOXp4ZcB6oNupDzS/view?usp=sharing" type="button" class="btn btn-outline-light">GDrive</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Sep 2021 - Dec 2021</td>
+            <td>Class Project</td>
             <td>APS (Analisa Perancangan System)</td>
-            <td style="text-align: center;">System Analyst</td>
-            <td style="text-align: center;"><a href="https://drive.google.com/file/d/1TWFgX73b4tD3DbCttt3cypOnAzkLhyxi/view?usp=sharing" style="color: red;">GDrive</a></td>
-        </tr>
-        <tr>
-            <td style="text-align: center;">Sep 2021 - Dec 2021</td>
-            <td style="text-align: center;">Class Project</td>
+            <td>System Analyst</td>
+            <td><a href="https://drive.google.com/file/d/1TWFgX73b4tD3DbCttt3cypOnAzkLhyxi/view?usp=sharing" type="button" class="btn btn-outline-light">GDrive</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Sep 2021 - Dec 2021</td>
+            <td>Class Project</td>
             <td>OOD (Object Oriented Design)</td>
-            <td style="text-align: center;">System Analyst</td>
-            <td style="text-align: center;"><a href="https://drive.google.com/file/d/1KGS_EMTIjM1sUs2AdStfiaMfQj9Ml106/view?usp=sharing" style="color: cyan;">GDrive</a></td>
-        </tr>
-    </table>
-    <button class="dont" style="border-radius: 5px; width: 150px; position:relative; left:50%; top:100px;" border="7" type="button" onclick=" window.location.href = 'https://youtu.be/dQw4w9WgXcQ';"> DO NOT CLICK ME!!!!</button>
-</body>
+            <td>System Analyst</td>
+            <td><a href="https://drive.google.com/file/d/1KGS_EMTIjM1sUs2AdStfiaMfQj9Ml106/view?usp=sharing" type="button" class="btn btn-outline-light">GDrive</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="d-flex justify-content-center">
+        <a href="https://youtu.be/dQw4w9WgXcQ" type="button" class="btn btn-outline-danger ">DO NOT KLICK ME!!</a>
+      </div>
+      
+      <nav class="navbar navbar-dark bg-secondary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Biodata 2</a>
+          <button
+            class="navbar-toggler "
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Biodata 2
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Portofolio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
 </html>
